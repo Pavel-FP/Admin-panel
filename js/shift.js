@@ -91,7 +91,7 @@ startBtn.addEventListener('click', function() {
 
 
 
-//тварь на времени нажатия на кнопку
+
 function formatTime(data) {
     return (new Intl.DateTimeFormat("ru", {
         hour: "2-digit",
